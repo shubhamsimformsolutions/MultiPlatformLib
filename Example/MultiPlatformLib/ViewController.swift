@@ -7,6 +7,8 @@
 //
 
 import UIKit
+import MultiPlatformLib
+import SwiftUI
 
 class ViewController: UIViewController {
 
@@ -18,7 +20,20 @@ class ViewController: UIViewController {
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
+        
     }
 
+}
+
+
+struct ContentView {
+    public var text: String
+}
+
+// MARK: - Body
+extension ContentView: View {
+    var body: some View {
+        CapitalizedText(text: "Hello")
+    }
 }
 

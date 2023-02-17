@@ -18,19 +18,19 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+'TODO: Add long description of the pod here.'
                        DESC
 
-  s.homepage         = 'https://github.com/shubhamsimformsolutions/MultiPlatformLib'
+  s.homepage         = 'https://github.com/shubhamsimformsolutions/MultiPlatformLib.git'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'shubhamsimformsolutions' => 'you@example.com' }
   s.source           = { :git => 'https://github.com/shubhamsimformsolutions/MultiPlatformLib.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '10.0'
+  s.ios.deployment_target = '13.0'
 
-  s.source_files = 'MultiPlatformLib/Classes/**/*'
+  s.source_files = 'Sources/*'
   
   # s.resource_bundles = {
   #   'MultiPlatformLib' => ['MultiPlatformLib/Assets/*.png']

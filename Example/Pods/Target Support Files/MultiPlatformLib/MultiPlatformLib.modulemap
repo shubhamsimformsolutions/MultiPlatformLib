@@ -1,0 +1,6 @@
+framework module MultiPlatformLib {
+  umbrella header "MultiPlatformLib-umbrella.h"
+
+  export *
+  module * { export * }
+}

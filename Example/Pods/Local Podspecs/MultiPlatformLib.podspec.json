@@ -1,0 +1,22 @@
+{
+  "name": "MultiPlatformLib",
+  "version": "0.1.0",
+  "summary": "A short description of MultiPlatformLib.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/shubhamsimformsolutions/MultiPlatformLib",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "shubhamsimformsolutions": "you@example.com"
+  },
+  "source": {
+    "git": "https://github.com/shubhamsimformsolutions/MultiPlatformLib.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source_files": "MultiPlatformLib/Classes/**/*"
+}
